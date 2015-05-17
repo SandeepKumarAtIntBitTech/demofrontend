@@ -23,3 +23,32 @@ and open the template in the editor.
     text-align: center !important;
     font-size: larger;
 }
+
+
+
+
+#div1{
+    position: relative;
+    top:100px;
+}
+
+
+/*css for personal.html */
+
+#contemporarycontainer{
+    position: absolute;
+    top:50px;
+}
+
+#para1{
+    font-size: larger;
+    
+}
+#preview{
+    position: relative;
+    left:  0px;
+    top:10px;
+}
+.thumbnail fancybox{
+    margin: 0 auto;
+}
