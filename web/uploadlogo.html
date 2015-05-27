@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>logo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body>
+        
+        <div class="container">
+           
+            <div class="row">
+                <div class="span1">
+                    <a href="personality.html">go back</a>
+                    
+                </div>
+            </div>
+                <div id="contentdiv">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-5">
+                        <p id="comment1"> Upload your logo </p> 
+                        <p id="comment2">Please upload in a .PNG, .JPGE,</p> <br><br>
+                        
+                       
+                    </div>
+                </div>
+            
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-5">
+                            
+                            <img src="image/logo.png" alt="logo" class="img-responsive" width="80" height="100"><br><br><br>
+                        </div>
+                        
+                        </div>
+                        
+                        <form class="form-horizontal" action="#" method="post">
+                            
+                           <div class="form-group">
+                            <label  class="col-md-6 control-label"> </label>
+                            <div class="col-md-3 col-md-offset-5 ">
+                                <input class="btn btn-info" type="button" value="CONTINUE"><br><br>
+                                
+                                <a href="#myModal"  data-toggle="modal" data-target="#myModal">Upload a different logo</a>
+                         
+                            </div>
+                              
+                        </div> 
+                            
+                            
+                        </form>
+                        
+                        
+                    </div>
+                    
+                    
+       
+                
+             
+      <!-- end of container-pop up using bootstrap-->      
+ 
+      
+      
+        
+        
+        
+        
+      <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 id="comment1" class="modal-title">Upload different logo</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                               <label  class="col-sm-3">Upload image</label>
+                                <div class="col-md-3 col-md-offset-1">
+                                   <input type="file" name="upload">
+                                </div>
+                                <div class="col-md-2 col-md-offset-3">
+                                  <input class="btn btn-success" type="button" id="conformpassword" value="upload">
+                                </div>
+
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+              </div>
+      
+            </div>
+        </div>
+
+          </div>  
+        
+    </body>
+</html>

@@ -10,7 +10,8 @@ and open the template in the editor.
 
 #signupdiv{
     position: relative;
-   top:80px; 
+    top:100px;
+    margin: 0 auto;
    
 }
 #logo{
@@ -21,7 +22,11 @@ and open the template in the editor.
 
 .text-left{
     text-align: center !important;
-    font-size: larger;
+    font-size: 30px;
+}
+.form-group{
+    
+    text-decoration: none !important;
 }
 
 
@@ -31,24 +36,131 @@ and open the template in the editor.
     position: relative;
     top:100px;
 }
+#signform{
+    position: relative;
+     left: -38px;   
+    margin: 25px;
+   
+}
+#createaccount{
+  position: relative;
+  left: 40px;
+}
 
 
-/*css for personal.html */
+
+
+
+
+
+
+
+
+/*.................css for personality.html ................*/
 
 #contemporarycontainer{
-    position: absolute;
+    position: relative;
     top:50px;
 }
 
-#para1{
-    font-size: larger;
-    
-}
+
 #preview{
-    position: relative;
-    left:  0px;
-    top:10px;
+   
 }
 .thumbnail fancybox{
     margin: 0 auto;
 }
+.item{
+
+        
+}
+#buttonlength{
+    
+}
+
+
+
+
+
+
+
+/*................css for logo upload....*/
+
+#comment1{
+    font-size: 18px;
+    font-weight: normal;
+}
+#comment2{
+    font-size: 12px;
+}
+
+#namewithlogo{
+    margin: 0 !important;
+    font-size: 45px;
+    text-shadow: initial ;
+  
+    
+    
+}
+#contentdiv{
+    position: relative;
+    top:70px;
+}
+
+#continuelookchooser{
+    position: relative;
+    left: 45px;
+}
+
+
+
+
+
+
+/*csss used for palettechooser.html */
+
+
+.foo {   
+    float: left;
+    width: 70px;
+    height: 35px;
+    margin: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+
+.color-box{
+    float: left;
+    width: 70px;
+    height: 35px;
+    margin: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+ul,li
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
