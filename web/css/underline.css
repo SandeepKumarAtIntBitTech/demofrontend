@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 /* css for underline.html*/
 #logo{
-    margin: 0 auto;
+    margin: 0 auto ;
     
 }
 .text-left{
@@ -123,8 +123,7 @@ input:focus ~ .highlight {
 
 
 .span5{
-    position: relative;
-    left: 420px;
+   
     
 }
 

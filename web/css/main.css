@@ -8,6 +8,24 @@ and open the template in the editor.
     Author     : development
 */
 
+
+.simplebox {
+
+ border: none ;
+
+ -webkit-box-shadow: none !important;
+ -moz-box-shadow: none !important;
+   box-shadow: none !important ;
+  border-bottom:1px solid #757575;
+  border-radius:0px; 
+  
+}
+
+
+
+
+
+
 #signupdiv{
     position: relative;
     top:100px;
@@ -43,8 +61,7 @@ and open the template in the editor.
    
 }
 #createaccount{
-  position: relative;
-  left: 40px;
+  margin-left: 45px;
 }
 
 
@@ -131,7 +148,22 @@ and open the template in the editor.
     border-radius: 5px;
 }
 
+
+
+
+
 .color-box{
+    float: left;
+    width: 70px;
+    height: 35px;
+    margin: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 5px;
+    
+}
+.blankcolor-box{
     float: left;
     width: 70px;
     height: 35px;
@@ -155,7 +187,12 @@ ul,li
 
 
 
+/*css for service*/
 
+#servicelist{
+    font-size: small;
+    font-weight: normal;
+}
 
 
 

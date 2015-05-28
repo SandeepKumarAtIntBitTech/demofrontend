@@ -6,68 +6,53 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>organization</title>
+        <title>services</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="http://code.jquery.com/jquery-latest.js"></script>
         <link rel="stylesheet" href="css/main.css">
         
     </head>
-    
     <body>
         <div class="container">
-            <div class="row">
-               
-                <div class="span6">
-                    <a href="signup.html">go back</a>
-                    <a href="services.html" class="pull-right">next</a>
-                </div>
-                
-            </div>
-            <div id="contentdiv" class="row">
-                <div class="col-md-6 col-md-offset-5">
-                    <p id="comment1">Howdy!</p>
-                    <p id="comment1">We’re BrndBot, its nice to meet you.</p><br><br>
+            <a href="organizatiolist.html">go back</a>
+            <a href="studio.html" class="pull-right">next</a>
+            <div  id="contentdiv" class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <p id="comment1">Are you associated with any of these services?</p>
+                    
                     
                 </div>
+                
                 <form class="form-horizontal" action="#" method="post">
-                    <div class="form-group">
-                            <label  class="col-md-4 control-label"> </label>
-                            <div class="col-md-3 col-md-offset-1">
-                                <input class="form-control simplebox" type="text"  placeholder="YOUR COMPANY NAME"><br>
-
-                            </div>
-                        </div>
-                    <div class="form-group">
-                        <label  id="comment1" class="col-md-4 col-md-offset-5">Please select an organization:</label><br><br>
-                            <div class="col-md-3 col-md-offset-5">
+                     <div class="form-group">
+                         <label  id="servicelist" class="col-md-4 col-md-offset-4 ">Service drop down list</label>
+                            <div class="col-md-3 col-md-offset-4">
                                 <select class="form-control">
-                                    <option selected="selected">Organization drop down list</option>
+                                    <option selected="selected">Service List</option>
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>
                                     <option>4</option>
                        
-                                </select><br>
+                                </select><br><br>
                                         
                             </div>
-                        </div>
-                    
-                    <div  class="form-group">
-                               <div class="col-sm-offset-6 col-md-5">
+                        <div  class="form-group">
+                               <div class="col-sm-offset-4 col-md-4">
                                    <button type="submit"  class="btn btn-info">CONTINUE</button><br><br><br>
 
                                </div>
                         </div>
+                        
+                        
+                        </div>
+                    
                     
                     
                 </form>
-                
-                
                 
             </div>
             
