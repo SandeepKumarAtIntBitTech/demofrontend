@@ -12,62 +12,121 @@ and open the template in the editor.
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main1.css">
+        <style>
+            #right{
+                
+                float: right;
+            }
+        </style>
+        
+        
     </head>
    
     <body>
         <div class="container">
            
-            <div class="row">
+            <div class="row pull">
                 <div class="span1">
                     
                     <a href="studio.html">go back</a>
                     <a href="personality.html" class="pull-right">next</a>
-                    
+                  
                 </div>
             </div>
-            <div  id="div1"> 
-                <div class="row">
-                    <div class="col-md-3">
-                        <img id="logo" src="image/images.jpeg" class="img-responsive" width="200" height="350"> <br>
-                    </div>
+            
+            
+<!--            <div id="content">
+      <img src="image/android.png" />
+      <img src="image/dropdown.png" />
+      <img src="image/images.jpeg" /> 
+      <img src="image/logo.png" />
+      <img src="image/question-mark-black-background.png" />
+      <img src="image/android.png" />
+  </div>-->
+<aside id="right"><a href="#" id="left-button"><img src="image/rightshift.png" /></a></aside>
+<a href="#" id="right-button"><img src="image/leftshift.png" /></a>
 
-                    <div class="col-md-3">
-                        <img id="logo" src="image/images.jpeg" class="img-responsive" width="200" height="350"> <br>
-                    </div>
 
-                    <div class="col-md-3">
-                        <img id="logo" src="image/images.jpeg" class="img-responsive" width="200" height="350"> <br>
-                    </div>
-                    <div class="col-md-3">
-                        <img id="logo" src="image/images.jpeg" class="img-responsive" width="200" height="350"> <br><br>
-
-                    </div>
-
-                    <div class="col-md-3">
-                        <img id="logo" src="image/images.jpeg" class="img-responsive" width="200" height="350"> <br>
-                    </div>
-                    <div class="col-md-3">
-                        <img id="logo" src="image/images.jpeg" class="img-responsive" width="200" height="350"> <br>
-                    </div>
-                    <div class="col-md-3">
-                        <img id="logo" src="image/images.jpeg" class="img-responsive" width="200" height="350"> <br>
-                    </div>
-                     <div class="col-md-3">
-                        <img id="logo" src="image/images.jpeg" class="img-responsive" width="200" height="350"> <br>
-                    </div>
-                    <form id="continuelookchooser" class="form-horizontal">
-                       <div class="form-group">
-                            <label  class="span2 "> </label>
-                            <div class="col-md-3 ">
-                                <input class="btn btn-info" type="button" value="CONTINUE"><br><br>
-                                
-                            </div>
-                        </div> 
-                    </form>
+<script>
+   $('#right-button').click(function() {
+      event.preventDefault();
+      $('#content').animate({
+        marginLeft: "-=200px"
+      }, "fast");
+   });
+   
+   $('#left-button').click(function() {
+      event.preventDefault();
+      $('#content').animate({
+        marginLeft: "+=200px"
+      }, "fast");
+   });
+</script>     
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div id="contentdiv" class="row">
+                  <div  class="span3 col-md-offset-1 ">
+                      <p id="comment1" class="lookcomment1">Please choose a “look”</p></<br>
                  </div>
+                
+                <div id="content" class="col-md-12">
+                    <div class="col-md-2 col-md-offset-2">
+                        <img id="lookchooser1" src="" class="img-responsive " > 
+                    </div>
+
+                    <div class="col-md-2 ">
+                        <img id="lookchooser2" src="" class="img-responsive" > 
+                    </div>
+
+                    <div class="col-md-2">
+                        <img id="lookchooser3" src="" class="img-responsive" > 
+                    </div>
+                    <div class="col-md-2">
+                        <img id="lookchooser4" src="" class="img-responsive" > <br><br>
+
+                    </div>
+
+                    <div class="col-md-2 col-md-offset-2">
+                        <img id="lookchooser5" src="" class="img-responsive"> 
+                    </div>
+                    <div class="col-md-2">
+                        <img id="lookchooser6" src="" class="img-responsive" > 
+                    </div>
+                    <div class="col-md-2">
+                        <img id="lookchooser7" src="" class="img-responsive" > 
+                    </div>
+                     <div class="col-md-2">
+                         <img id="lookchooser8" src="" class="img-responsive" > <br>
+                     </div></div>
+                    
+                 
 
             </div>
+
+                <form id="continuelookchooser" class="form-horizontal">
+                       <div class="form-group">
+                            
+                            <div class="col-md-3 col-md-offset-0 ">
+                                <div  class="form-group">
+                                    <div class=" col-md-6 col-md-offset-6 ">
+                                        <br><br><br> <button id="loochooserbutton" type="submit"  class="btn btn-info">CONTINUE</button><br><br><br>
+
+                                    </div>
+                                </div>
+                                
+                            </div>
+                       </div>
+                    </form>
         </div>
     </body>
 </html>

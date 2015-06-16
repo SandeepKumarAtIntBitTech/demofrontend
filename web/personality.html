@@ -9,17 +9,12 @@ and open the template in the editor.
         <title>personality</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/main.css">
+        
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/prettify.js"></script>
-        <script src="js/jquery.bsFormAlerts.js"></script>
+        <link rel="stylesheet" href="css/main1.css">
     </head>
    
     <body>
@@ -28,71 +23,72 @@ and open the template in the editor.
             <a href="lookchooser.html">go back</a>
             <a href="uploadlogo.html" class="pull-right">next</a>
              <div id="contemporarycontainer">
-                 <div class="span5 col-md-offset-1 ">
-                <p id="comment1">Choose a personality</p><br>
+                 <div class="span2 col-md-offset-1">
+                <p id="comment1" class="comment1">Choose a personality</p><br>
                  </div>
                     <div class="row" id="buttonlength">
                         
                         
-                        <div class="span7">
-                    <div class="col-md-7 pull-right pull-up">
+                    <div class="span5">
+                     
+                        <div id="preview" class="col-md-7 pull-right pull-up">
+                            
+                            <div class="item"><p >preview</p>
+                                <img id="imagedisplay" class="img-responsive" src="" width="700" height="400"><br>
 
-                        <div class="item">
-                            <img  class="img-responsive" src="http://placehold.it/700x450" width="700" height="450"><br>
+                            </div>
+
 
                         </div>
-
-
-                    </div>
                      </div>
                         
                         <form class="form-horizontal" >
+                            <input id="hiddenform" type="hidden" value="">
+                            <div class="span4 col-md-offset-1" >
+                               
+                                <input id="contemporary1" type="button" class="btn btn-default" value="contemporary1"><br><br>
+
+                            </div>
                             
-                            <div class="span5 col-md-offset-1 ">
+                            
+                            <div class="span4 col-md-offset-1">
+                            
+                                <input id="contemporary2" type="button"  class="btn btn-default" value="contemporary2"><br><br>
+
+                            </div>
+                            
+                            <div class="span4 col-md-offset-1">
+                            
+                                <input id="contemporary3" type="button"  class="btn btn-default" value="contemporary3"><br><br>
+
                           
-                                <button type="button"  class="btn btn-default btn-lg">contemporary1</button><br><br>
-
                             </div>
                             
                             
                             <div class="span4 col-md-offset-1">
                             
-                                <button type="button"  class="btn btn-default btn-lg">contemporary2</button><br><br>
-
-                            </div>
-                            
-                            <div class="span4 col-md-offset-1">
-                            
-                                <button type="button"  class="btn btn-default btn-lg">contemporary3</button><br><br>
-
-                          
-                            </div>
-                            
-                            
-                            <div class="span4 col-md-offset-1">
-                            
-                                <button type="button"  class="btn btn-default btn-lg">contemporary4</button><br><br>
+                                <input  id="contemporary4" type="button"  class="btn btn-default" value="contemporary4"><br><br>
 
                             </div>
                         
                             
                             <div class="span4 col-md-offset-1">
                             
-                                <button type="button"  class="btn btn-default btn-lg ">contemporary5</button><br><br>
+                                <input id="contemporary5" type="button"  class="btn btn-default" value="contemporary5"><br><br>
 
                             </div>
                            
                             
                             <div class="span4 col-md-offset-1">
                             
-                                <button type="button"  class="btn btn-default btn-lg">contemporary6</button><br><br>
+                                <input id="contemporary6" type="button"  class="btn btn-default" value="contemporary6"><br><br>
 
                          
                             </div>
 
 
                             <div class="span4 col-md-offset-1">
-                                <button type="button" class="btn btn-primary">CONTINUE</button>
+                                <button type="button" class="btn btn-info">CONTINUE</button>
 
                             </div>
 
@@ -102,8 +98,26 @@ and open the template in the editor.
                 </div>
 
                     </div>
-            </div>  
-                
+            </div> 
+        
+        
+        
+        
+        <script>
+                $(document).ready(function(){
+                     $("input").click(function(){
+
+                         var id=this.id;
+                             $("#hiddenform").val(this.id);
+                             
+//                     $("#"+this.id).css("background-color","#CACACA");
+                          
+                      
+                          
+                     });
+                 });
+
+        </script>    
        
     </body>
 </html>
